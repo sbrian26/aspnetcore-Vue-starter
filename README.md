@@ -1,4 +1,5 @@
-# ASP.NET Core & Vue.js Starter
+# ASP.NET Core & Vue.js Starter (TypeScript)
+
 
 Starter Template for ASP.NET Core and Vue.JS (Vue) - with Webpack (with HMR), Web API, Vuex state manangement and other best-practices baked in! 
 
