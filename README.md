@@ -8,14 +8,7 @@ Starter Template for ASP.NET Core and Vue.JS (Vue) - with Webpack (with HMR), We
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge&color=e51384)](/LICENSE) 
 
 ---
-
-<br>
-
-
-<h6 align="center"> Made with :heart: by <a href="https://trilon.io">Trilon.io</a></h3>
-
----
-
+forked from TrilonIO/aspnetcore-Vue-starter
 
 # Table of Contents
 
