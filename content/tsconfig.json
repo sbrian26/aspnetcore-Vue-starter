@@ -1,0 +1,27 @@
+// {
+//  "compilerOptions": {
+//    "noImplicitAny": false,
+//    "noEmitOnError": true,
+//    "removeComments": false,
+//    "sourceMap": true,
+//    "target": "es5"
+//  },
+//  "exclude": [
+//    "node_modules",
+//    "wwwroot"
+//  ]
+// }
+{
+  "compilerOptions": {
+    "lib": [ "dom", "es5", "es2015" ],
+    "target": "es5",
+    "strict": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "include": [
+    "ClientApp/**/*"
+  ]
+}

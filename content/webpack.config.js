@@ -1,6 +1,6 @@
 const path = require('path')
 const webpack = require('webpack')
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 const bundleOutputDir = './wwwroot/dist'
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
@@ -9,17 +9,16 @@ module.exports = () => {
   console.log('Building for \x1b[33m%s\x1b[0m', process.env.NODE_ENV)
 
   const isDevBuild = !(process.env.NODE_ENV && process.env.NODE_ENV === 'production')
-  
   const extractCSS = new MiniCssExtractPlugin({
     filename: 'style.css'
   })
 
   return [{
-    mode: (isDevBuild ? 'development' :'production'  ),
+    mode: (isDevBuild ? 'development' : 'production'),
     stats: { modules: false },
     entry: { 'main': './ClientApp/boot-app.js' },
     resolve: {
-      extensions: ['.js', '.vue'],
+      extensions: ['.ts', '.js', '.vue', 'json'],
       alias: isDevBuild ? {
         'vue$': 'vue/dist/vue',
         'components': path.resolve(__dirname, './ClientApp/components'),
@@ -43,7 +42,14 @@ module.exports = () => {
         { test: /\.vue$/, include: /ClientApp/, use: 'vue-loader' },
         { test: /\.js$/, include: /ClientApp/, use: 'babel-loader' },
         { test: /\.css$/, use: isDevBuild ? ['style-loader', 'css-loader'] : [MiniCssExtractPlugin.loader, 'css-loader'] },
-        { test: /\.(png|jpg|jpeg|gif|svg)$/, use: 'url-loader?limit=25000' }
+        { test: /\.(png|jpg|jpeg|gif|svg)$/, use: 'url-loader?limit=25000' },
+        { test: /\.tsx?$/,
+          loader: 'ts-loader',
+          exclude: /node_modules/,
+          options: {
+            appendTsSuffixTo: [/\.vue$/]
+          }
+        }
       ]
     },
     plugins: [
