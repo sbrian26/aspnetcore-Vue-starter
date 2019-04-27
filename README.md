@@ -12,11 +12,7 @@ Starter Template for ASP.NET Core and Vue.JS (Vue) - with Webpack (with HMR), We
 ---
 
 <br>
-<p align="center">
-  <a href="https://trilon.io" target="_blank">
-        <img width="500" height="auto" src="https://trilon.io/trilon-logo-clear.png" alt="Trilon.io - Angular Universal, NestJS, JavaScript Application Consulting Development and Training">
-  </a>
-</p>
+
 
 
 <h3 align="center"> Made with :heart: by <a href="https://trilon.io">Trilon.io</a></h3>
