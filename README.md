@@ -5,8 +5,6 @@ Starter Template for ASP.NET Core and Vue.JS (Vue) - with Webpack (with HMR), We
 
 > Written in ES6, TypeScript version coming soon!
 
-[![Nuget](https://img.shields.io/nuget/v/aspnetcore-vuejs.svg?style=for-the-badge&color=5b1096)](https://www.nuget.org/packages/aspnetcore-vuejs/)
-[![Nuget Downloads](https://img.shields.io/nuget/dt/aspnetcore-vuejs.svg?label=Nuget%20Downloads&style=for-the-badge&color=b31ae7)](https://www.nuget.org/packages/aspnetcore-vuejs/)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge&color=e51384)](/LICENSE) 
 
 ---
@@ -14,8 +12,7 @@ Starter Template for ASP.NET Core and Vue.JS (Vue) - with Webpack (with HMR), We
 <br>
 
 
-
-<h3 align="center"> Made with :heart: by <a href="https://trilon.io">Trilon.io</a></h3>
+<h6 align="center"> Made with :heart: by <a href="https://trilon.io">Trilon.io</a></h3>
 
 ---
 
