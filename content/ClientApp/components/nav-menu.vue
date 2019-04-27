@@ -1,4 +1,4 @@
-﻿<template>
+<template>
     <div class="main-nav">
         <nav class="navbar navbar-expand-md navbar-dark">
             <button class="navbar-toggler" type="button" @click="toggleCollapsed">
@@ -25,7 +25,7 @@
     </div>
 </template>
 
-<script>
+<script lang="ts">
     import { routes } from '../router/routes'
 
     export default {

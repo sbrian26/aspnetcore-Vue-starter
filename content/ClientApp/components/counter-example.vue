@@ -1,4 +1,4 @@
-﻿<template>
+<template>
     <div>
         <h1>Counter</h1>
 
@@ -16,7 +16,7 @@
     </div>
 </template>
 
-<script>
+<script  lang="ts">
     import { mapActions, mapState } from 'vuex'
 
     export default {

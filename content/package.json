@@ -80,7 +80,8 @@
     "webpack-dev-server": "^3.1.14",
     "webpack-hot-middleware": "^2.21.2",
     "ts-loader": "^5.4.4",
-    "typescript": "^3.4.5",  
-    "vue-property-decorator": "8.1.0"
+    "typescript": "^3.4.5",
+    "vue-property-decorator": "8.1.0",
+    "@types/node": "11.13.8"
   }
 }

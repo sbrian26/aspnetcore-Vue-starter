@@ -8,6 +8,14 @@
   </ItemGroup>
   <ItemGroup>
     <!-- Files not to show in IDE -->
+    <None Remove="ClientApp\app.ts" />
+    <None Remove="ClientApp\boot-app.ts" />
+    <None Remove="ClientApp\boot-server.ts" />
+    <None Remove="ClientApp\icons.ts" />
+    <None Remove="ClientApp\router\index.ts" />
+    <None Remove="ClientApp\router\routes.ts" />
+    <None Remove="ClientApp\store\api.ts" />
+    <None Remove="ClientApp\store\index.ts" />
     <None Remove="ClientApp\vue-shim.d.ts" />
     <None Remove="yarn.lock" />
 
@@ -15,6 +23,13 @@
     <Content Remove="ClientApp\**" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\app.ts" />
+    <TypeScriptCompile Include="ClientApp\boot-app.ts" />
+    <TypeScriptCompile Include="ClientApp\icons.ts" />
+    <TypeScriptCompile Include="ClientApp\router\index.ts" />
+    <TypeScriptCompile Include="ClientApp\router\routes.ts" />
+    <TypeScriptCompile Include="ClientApp\store\api.ts" />
+    <TypeScriptCompile Include="ClientApp\store\index.ts" />
     <TypeScriptCompile Include="ClientApp\vue-shim.d.ts" />
   </ItemGroup>
 

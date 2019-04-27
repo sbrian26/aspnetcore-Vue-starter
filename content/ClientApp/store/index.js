@@ -1,32 +1,28 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
-
-Vue.use(Vuex)
-
+var _a;
+import Vue from 'vue';
+import Vuex from 'vuex';
+Vue.use(Vuex);
 // TYPES
-const MAIN_SET_COUNTER = 'MAIN_SET_COUNTER'
-
+var MAIN_SET_COUNTER = 'MAIN_SET_COUNTER';
 // STATE
-const state = {
-  counter: 1
-}
-
+var state = {
+    counter: 1
+};
 // MUTATIONS
-const mutations = {
-  [MAIN_SET_COUNTER] (state, obj) {
-    state.counter = obj.counter
-  }
-}
-
+var mutations = (_a = {},
+    _a[MAIN_SET_COUNTER] = function (state, obj) {
+        state.counter = obj.counter;
+    },
+    _a);
 // ACTIONS
-const actions = ({
-  setCounter ({ commit }, obj) {
-    commit(MAIN_SET_COUNTER, obj)
-  }
-})
-
+var actions = ({
+    setCounter: function (_a, obj) {
+        var commit = _a.commit;
+        commit(MAIN_SET_COUNTER, obj);
+    }
+});
 export default new Vuex.Store({
-  state,
-  mutations,
-  actions
-})
+    state: state,
+    mutations: mutations,
+    actions: actions
+});

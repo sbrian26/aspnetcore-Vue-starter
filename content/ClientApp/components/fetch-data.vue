@@ -1,4 +1,4 @@
-﻿<template>
+<template>
     <div>
         <h1>Weather forecast</h1>
 
@@ -45,7 +45,7 @@
     </div>
 </template>
 
-<script>
+<script  lang="ts">
 export default {
   computed: {
     totalPages: function () {
