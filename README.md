@@ -17,7 +17,6 @@ forked from TrilonIO/aspnetcore-Vue-starter
 * [Installation](#installation)
 * [Extras](#recommended-plugin-for-debugging-vuejs)
 * [License](#license)
-* [Trilon - VueJS & Asp.NET Consulting & Training](#trilon---vue-aspnet-nodejs---consulting--training--development)
 
 # Features
 
@@ -122,19 +121,3 @@ Copyright (c) 2016-2019 [Mark Pieszak](https://github.com/MarkPieszak)
 [![Twitter Follow](https://img.shields.io/twitter/follow/MarkPieszak.svg?style=social)](https://twitter.com/MarkPieszak)
 
 ----
-
-# Trilon - Vue, Asp.NET, NodeJS - Consulting | Training | Development
-
-Check out **[Trilon.io](https://Trilon.io)** for more info! 
-
-Contact us at <hello@trilon.io>, and let's talk about your projects needs.
-
-<p align="center">
-  <a href="https://trilon.io" target="_blank">
-    <img src="https://trilon.io/trilon-logo-clear.png" alt="Trilon.io - Angular Universal, NestJS, JavaScript Application Consulting Development and Training">
-  </a>
-</p>
-
-## Follow Trilon online:
-
-Twitter: [@Trilon_io](http://twitter.com/Trilon_io)
