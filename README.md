@@ -1,9 +1,9 @@
-# ASP.NET Core & Vue.js Starter (TypeScript)
+ ASP.NET Core & Vue.js Starter (TypeScript)
 
 
 Starter Template for ASP.NET Core and Vue.JS (Vue) - with Webpack (with HMR), Web API, Vuex state manangement and other best-practices baked in! 
 
-> Written in ES6, TypeScript version coming soon!
+> Written in ES6, basic TypeScript conversion (tested Visual Studio 2019).
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge&color=e51384)](/LICENSE) 
 
@@ -37,6 +37,8 @@ forked from TrilonIO/aspnetcore-Vue-starter
 # Installation:
 
 ### Nuget | Dotnet Templates
+
+Instructions for original project (not this one)
 
 Find the template through NuGet package manager inside Visual Studio or [here](https://www.nuget.org/packages/aspnetcore-vuejs)
 
