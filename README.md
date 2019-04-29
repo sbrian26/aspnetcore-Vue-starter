@@ -3,7 +3,7 @@
 
 Starter Template for ASP.NET Core and Vue.JS (Vue) - with Webpack (with HMR), Web API, Vuex state manangement and other best-practices baked in! 
 
-> Written in ES6, basic TypeScript conversion (tested Visual Studio 2019).
+> Written in ES6, basic TypeScript conversion (tested with Visual Studio 2019 only).
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge&color=e51384)](/LICENSE) 
 
