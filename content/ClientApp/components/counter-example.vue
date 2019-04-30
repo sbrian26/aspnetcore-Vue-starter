@@ -16,7 +16,7 @@
     </div>
 </template>
 
-<script  lang="ts">
+<script lang="ts">
     import { mapActions, mapState } from 'vuex'
 
     export default {

@@ -45,7 +45,7 @@
     </div>
 </template>
 
-<script  lang="ts">
+<script lang="ts">
 export default {
   computed: {
     totalPages: function () {

@@ -13,7 +13,7 @@
 .btn-primary:hover { background: #1e0e40; border: 1px #1e0e40 solid;}
 
 .page-item.active .page-link {
-    background: #e91e63;
+    background: Red; /*#e91e63*/
     border-color: #e91e63;
 }
 

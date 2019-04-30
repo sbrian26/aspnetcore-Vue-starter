@@ -11,8 +11,8 @@
     </div>
 </template>
 
-<script  lang="ts">
-    import NavMenu from './nav-menu.vue'
+<script lang="ts">
+    import NavMenu from './nav-menu'
 
     export default {
       components: {

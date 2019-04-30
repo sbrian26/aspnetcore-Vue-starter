@@ -13,14 +13,15 @@
 // }
 {
   "compilerOptions": {
-    "lib": [ "dom", "es5", "es2015" ],
+    "lib": [ "dom", "es5", "es2016" ],
     "target": "es5",
     "strict": true,
     "module": "es2015",
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "types": ["node"]
+    "types": [ "node" ],
+    "noImplicitAny": false 
   },
   "include": [
     "ClientApp/**/*"

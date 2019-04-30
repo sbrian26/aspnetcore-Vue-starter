@@ -18,6 +18,8 @@ import App from 'components/app-root.vue';
 import { FontAwesomeIcon } from './icons';
 // Registration of global components
 Vue.component('icon', FontAwesomeIcon);
+import BlackDashboard from './plugins/blackDashboard.js';
+Vue.use(BlackDashboard);
 Vue.prototype.$http = axios;
 sync(store, router);
 var app = new Vue(__assign({ store: store,
