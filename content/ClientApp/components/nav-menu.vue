@@ -1,4 +1,4 @@
-<template>
+<!--<template>
     <div class="main-nav">
         <nav class="navbar navbar-expand-md navbar-dark">
             <button class="navbar-toggler" type="button" @click="toggleCollapsed">
@@ -25,8 +25,8 @@
     </div>
 </template>
 
-<script lang="ts">
-    import { routes } from '../router/routes'
+<script>
+    import  routes  from '@/router/routes'
 
     export default {
       data () {
@@ -54,4 +54,4 @@
     .slide-enter-to, .slide-leave {
     max-height: 20em;
     }
-</style>
+</style>-->

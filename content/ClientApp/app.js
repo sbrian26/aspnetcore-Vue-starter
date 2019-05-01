@@ -1,27 +1,36 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
-import Vue from 'vue';
-import axios from 'axios';
-import router from './router/index';
-import store from './store';
-import { sync } from 'vuex-router-sync';
-import App from 'components/app-root.vue';
-import { FontAwesomeIcon } from './icons';
+import Vue from 'vue'
+import axios from 'axios'
+import router from './router/index.js'
+// import RouterPrefetch from 'vue-router-prefetch'
+import store from './store'
+import { sync } from 'vuex-router-sync'
+// import App from 'components/app-root.vue'
+import App from './app.vue'
+import { FontAwesomeIcon } from './icons'
+import BlackDashboard from './plugins/blackDashboard.js'
+import i18n from './i18n.js'
+
 // Registration of global components
-Vue.component('icon', FontAwesomeIcon);
-import BlackDashboard from './plugins/blackDashboard.js';
-Vue.use(BlackDashboard);
-Vue.prototype.$http = axios;
-sync(store, router);
-var app = new Vue(__assign({ store: store,
-    router: router }, App));
-export { app, router, store };
+Vue.component('icon', FontAwesomeIcon)
+// import './registerServiceWorker'
+
+Vue.use(BlackDashboard)
+
+Vue.prototype.$http = axios
+
+sync(store, router)
+
+
+
+const app = new Vue({
+  i18n,
+  store,
+  router,
+  render: h => h(App)
+}).$mount('#app')
+
+export {
+  app,
+  router,
+  store
+}

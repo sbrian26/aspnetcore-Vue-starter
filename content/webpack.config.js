@@ -21,15 +21,19 @@ module.exports = () => {
       extensions: ['.ts', '.js', '.vue', 'json'],
       alias: isDevBuild ? {
         'vue$': 'vue/dist/vue',
+        '@': path.resolve(__dirname, './ClientApp'),
         'components': path.resolve(__dirname, './ClientApp/components'),
         'views': path.resolve(__dirname, './ClientApp/views'),
         'utils': path.resolve(__dirname, './ClientApp/utils'),
-        'api': path.resolve(__dirname, './ClientApp/store/api')
+        'api': path.resolve(__dirname, './ClientApp/store/api'),
+        'chart.js': 'chart.js/dist/Chart.js'
       } : {
+        '@': path.resolve(__dirname, './ClientApp'),
         'components': path.resolve(__dirname, './ClientApp/components'),
         'views': path.resolve(__dirname, './ClientApp/views'),
         'utils': path.resolve(__dirname, './ClientApp/utils'),
-        'api': path.resolve(__dirname, './ClientApp/store/api')
+        'api': path.resolve(__dirname, './ClientApp/store/api'),
+        'chart.js': 'chart.js/dist/Chart.js'
       }
     },
     output: {
@@ -61,6 +65,18 @@ module.exports = () => {
         { test: /\.(ttf|eot|svg|woff(2)?)(\?[a-z0-9=&.]+)?$/, loader: 'file-loader' }
       ]
     },
+    // pluginOptions: {
+    //  i18n: {
+    //    locale: 'en',
+    //    fallbackLocale: 'en',
+    //    localeDir: 'locales',
+    //    enableInSFC: false
+    //  }
+    // },
+    // css: {
+    //  // Enable CSS source maps.
+    //  sourceMap: process.env.NODE_ENV !== 'production'
+    // },
     plugins: [
       new VueLoaderPlugin(),
       new webpack.DllReferencePlugin({
