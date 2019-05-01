@@ -127,12 +127,13 @@
   </div>
 </template>
 <script>
-  import LineChart from '@/components/Charts/LineChart';
-  import BarChart from '@/components/Charts/BarChart';
-  import * as chartConfigs from '@/components/Charts/config';
-  import TaskList from './Dashboard/TaskList';
-  import UserTable from './Dashboard/UserTable';
-  import config from '@/config';
+  // !! .vue files don't seem to be privy to the @ alias <!here only!> defined in WebPack.config.js... not sure why.  have to use "../" directory notation here instead 
+  import LineChart from '../components/Charts/LineChart';
+  import BarChart from '../components/Charts/BarChart.js';
+  import * as chartConfigs from '../components/Charts/config.js';
+  import TaskList from './Dashboard/TaskList.vue';
+  import UserTable from './Dashboard/UserTable.vue';
+  import config from '../config.js';
 
   export default {
     components: {

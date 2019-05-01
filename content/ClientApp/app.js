@@ -15,17 +15,13 @@ Vue.component('icon', FontAwesomeIcon)
 // import './registerServiceWorker'
 
 Vue.use(BlackDashboard)
-
 Vue.prototype.$http = axios
 
 sync(store, router)
-
-
-
 const app = new Vue({
-  i18n,
   store,
   router,
+  i18n,
   render: h => h(App)
 }).$mount('#app')
 

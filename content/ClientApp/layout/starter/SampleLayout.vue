@@ -22,7 +22,7 @@
   import TopNavbar from "./SampleNavbar.vue";
   import ContentFooter from "./SampleFooter.vue";
   import DashboardContent from "./Content.vue";
-  import MobileMenu from "./MobileMenu";
+  import MobileMenu from "./MobileMenu.vue";
   export default {
     components: {
       TopNavbar,

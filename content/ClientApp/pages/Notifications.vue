@@ -86,8 +86,8 @@
   </div>
 </template>
 <script>
-  import NotificationTemplate from './Notifications/NotificationTemplate';
-  import { BaseAlert } from '@/components';
+  import NotificationTemplate from './Notifications/NotificationTemplate.vue';
+  import  BaseAlert  from '@/components/BaseAlert.vue';
 
   export default {
     components: {

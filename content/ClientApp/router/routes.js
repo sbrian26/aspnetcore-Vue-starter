@@ -2,13 +2,13 @@ import DashboardLayout from "@/layout/dashboard/DashboardLayout.vue";
 // GeneralViews
 import NotFound from "@/pages/NotFoundPage.vue";
 // Admin pages
-var Dashboard = function () { return import(/* webpackChunkName: "dashboard" */ "@/pages/Dashboard.vue"); };
-var Profile = function () { return import(/* webpackChunkName: "common" */ "@/pages/Profile.vue"); };
-var Notifications = function () { return import(/* webpackChunkName: "common" */ "@/pages/Notifications.vue"); };
-var Icons = function () { return import(/* webpackChunkName: "common" */ "@/pages/Icons.vue"); };
-var Maps = function () { return import(/* webpackChunkName: "common" */ "@/pages/Maps.vue"); };
-var Typography = function () { return import(/* webpackChunkName: "common" */ "@/pages/Typography.vue"); };
-var TableList = function () { return import(/* webpackChunkName: "common" */ "@/pages/TableList.vue"); };
+var Dashboard = function () { return import("@/pages/Dashboard.vue"); };
+var Profile = function () { return import("@/pages/Profile.vue"); };
+var Notifications = function () { return import("@/pages/Notifications.vue"); };
+var Icons = function () { return import("@/pages/Icons.vue"); };
+var Maps = function () { return import("@/pages/Maps.vue"); };
+var Typography = function () { return import("@/pages/Typography.vue"); };
+var TableList = function () { return import("@/pages/TableList.vue"); };
 var routes = [
     {
         path: "/",
