@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vue2Spa", "Vue2Spa.csproj", "{B5FE715F-AB99-4FA6-AEC1-D3B644C76DF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet core Vue2 SPA - Black-Dashboard", "dotnet core Vue2 SPA - Black-Dashboard.csproj", "{A1BFA0FF-3D4D-4B52-80F8-F501DB7064ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B5FE715F-AB99-4FA6-AEC1-D3B644C76DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B5FE715F-AB99-4FA6-AEC1-D3B644C76DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B5FE715F-AB99-4FA6-AEC1-D3B644C76DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B5FE715F-AB99-4FA6-AEC1-D3B644C76DF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1BFA0FF-3D4D-4B52-80F8-F501DB7064ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1BFA0FF-3D4D-4B52-80F8-F501DB7064ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1BFA0FF-3D4D-4B52-80F8-F501DB7064ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1BFA0FF-3D4D-4B52-80F8-F501DB7064ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4295A5C6-15A9-4512-94AC-5574A23A5FD5}
 	EndGlobalSection
 EndGlobal
